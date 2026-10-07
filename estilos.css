@@ -1,0 +1,20 @@
+body {
+    
+    background-color: #6421ff;
+}
+.principal{
+    background-color: rgb(110, 212, 243);
+}
+
+.princip{
+    background-color: #216fff;
+}
+
+.letra{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 70%;
+    margin: 15 auto;
+}

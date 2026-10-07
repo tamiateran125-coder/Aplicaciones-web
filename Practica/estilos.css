@@ -1,0 +1,96 @@
+/* Restablecimiento básico para eliminar márgenes por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+header {
+    background-color: #2563d6;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Menú de navegación */
+header nav.menu {
+    margin-bottom: 20px;
+}
+
+/* Enlaces del menú */
+header nav.menu a {
+    color: white;
+    text-decoration: none;
+    background-color: #20b2df;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: inline-block;
+    transition: background-color 0.3s; /* Suaviza el cambio de color al usar :hover */
+}
+
+/* Efecto :hover en los enlaces del menú */
+header nav.menu a:hover {
+    background-color: #1a8ab0; /* Cambia a un azul más oscuro al pasar el ratón */
+}
+
+/* Encabezado principal del header */
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Contenido Principal */
+#principal {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto; /* Centra el contenido en pantallas grandes */
+}
+
+#principal h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Contenedor de las secciones en formato de tarjetas */
+.tarjetas {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center; /* Alinea las tarjetas en el centro */
+}
+
+.contact {
+    text-align: left;
+    margin-top: 40px;
+    background-color: #6ccddf;
+
+}
+
+/* Estilo para cada tarjeta/sección */
+.tarjeta {
+    background-color: #f4f6f8;
+    border: 1px solid #dddddd;
+    border-radius: 401px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3;
+}
+
+/* Efecto :hover en las tarjetas */
+.tarjeta:hover {
+    transform: translateY(-5px); /* Eleva levemente la tarjeta al pasar el ratón */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Agrega sombra alrededor */
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #edf1f7;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
